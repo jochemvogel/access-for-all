@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Click Menus Demo</title>
+		<script src="js/script.js"></script>
+		<link rel="stylesheet" href="css/demo.css" />
+		<link rel="stylesheet" href="css/clicky-menus.css" />
+	</head>
+	<body>
+		<!-- Based on code snippets. Didn't make it by myself -->
+		<!-- for use with <use> -->
+		<svg xmlns="http://www.w3.org/2000/svg" hidden>
+			<symbol id="arrow" viewbox="0 0 16 16">
+				<polyline
+					points="4 6, 8 10, 12 6"
+					stroke="#000"
+					stroke-width="2"
+					fill="transparent"
+					stroke-linecap="round"
+				/>
+			</symbol>
+		</svg>
+
+		<nav
+			id="site-navigation"
+			class="site-navigation"
+			aria-label="Clickable Menu Demonstration"
+		>
+			<ul class="main-menu clicky-menu no-js">
+				<li>
+					<a href="/tests/test1">Go back</a>
+				</li>
+				<li>
+					<a href="#">
+						Charts
+						<svg aria-hidden="true" width="16" height="16">
+							<use xlink:href="#arrow" />
+						</svg>
+					</a>
+					<ul>
+						<li><a href="#">Weather Charts</a></li>
+						<li>
+							<a href="#">Corona Charts</a>
+						</li>
+						<li><a href="#">Sustainable Charts</a></li>
+						<li><a href="#">Population Charts</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">
+						Portfolio
+						<svg aria-hidden="true" width="16" height="16">
+							<use xlink:href="#arrow" />
+						</svg>
+					</a>
+					<ul>
+						<li><a href="#">Nonprofits</a></li>
+						<li><a href="#">Higher Education</a></li>
+						<li><a href="#">Associations</a></li>
+						<li><a href="#">Consultants</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">
+						About
+						<svg aria-hidden="true" width="16" height="16">
+							<use xlink:href="#arrow" />
+						</svg>
+					</a>
+					<ul>
+						<li><a href="#">Mission</a></li>
+						<li><a href="#">History</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</body>
+</html>
