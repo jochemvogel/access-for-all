@@ -12,7 +12,33 @@
 		<nav class="navbar">
 			<ul class="navbar-menu">
 				<li><a href="/tests/test1">Home</a></li>
-				<li><a href="/tests/test1/wrong.html">About</a></li>
+				<li class="has-children">
+					<a href="#!" aria-haspopup="true">Cases</a>
+					<ul aria-label="submenu">
+						<li><a href="/tests/test1/click-menu.html">Other menu</a></li>
+						<li>
+							<a href="https://hcd-barchart-test.netlify.app/">Chart 1</a>
+						</li>
+						<li>
+							<a
+								href="https://jelmerovereem.github.io/human-centered-design-2021/src/index.html"
+								>Chart 2</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://samslotemaker.github.io/human-centered-design-2021/table-prototype1/"
+								>Table 1</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://human-centered-design.netlify.app/tabletester/index.html"
+								>Table 2</a
+							>
+						</li>
+					</ul>
+				</li>
 				<li class="has-children">
 					<a href="#!" aria-haspopup="true">Charts</a>
 					<ul aria-label="submenu">
@@ -112,7 +138,8 @@
 						<li><a href="/tests/test1/wrong.html">Population Charts</a></li>
 					</ul>
 				</li>
-				<li><a href="/tests/test1/click-menu.html">Other menu</a></li>
+				<li><a href="/tests/test1/wrong.html">Item 4</a></li>
+				<li><a href="/tests/test1/wrong.html">Item 5</a></li>
 			</ul>
 		</nav>
 		<h1>Test 1</h1>

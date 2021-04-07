@@ -25,14 +25,46 @@
 		<nav
 			id="site-navigation"
 			class="site-navigation"
-			aria-label="Clickable Menu Demonstration"
+			aria-label="Clickable Menu"
 		>
 			<ul class="main-menu clicky-menu no-js">
 				<li>
 					<a href="/tests/test1">Go back</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="#" aria-describedby="expand-item">
+						Cases
+						<svg aria-hidden="true" width="16" height="16">
+							<use xlink:href="#arrow" />
+						</svg>
+					</a>
+					<ul aria-label="submenu">
+						<li><a href="/tests/test1/click-menu.html">Other menu</a></li>
+						<li>
+							<a href="https://hcd-barchart-test.netlify.app/">Chart 1</a>
+						</li>
+						<li>
+							<a
+								href="https://jelmerovereem.github.io/human-centered-design-2021/src/index.html"
+								>Chart 2</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://samslotemaker.github.io/human-centered-design-2021/table-prototype1/"
+								>Table 1</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://human-centered-design.netlify.app/tabletester/index.html"
+								>Table 2</a
+							>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" aria-describedby="expand-item">
 						Charts
 						<svg aria-hidden="true" width="16" height="16">
 							<use xlink:href="#arrow" />
@@ -45,20 +77,6 @@
 						</li>
 						<li><a href="#">Sustainable Charts</a></li>
 						<li><a href="#">Population Charts</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#">
-						Item
-						<svg aria-hidden="true" width="16" height="16">
-							<use xlink:href="#arrow" />
-						</svg>
-					</a>
-					<ul>
-						<li><a href="#">Sub item 1</a></li>
-						<li><a href="#">Sub item 2</a></li>
-						<li><a href="#">Sub item 3</a></li>
-						<li><a href="#">Sub item 4</a></li>
 					</ul>
 				</li>
 				<li>
@@ -76,5 +94,10 @@
 				</li>
 			</ul>
 		</nav>
+
+		<p class="visually-hidden" id="expand-item">
+			In order to expand this item, use the spacebar. To collapse it, use de
+			escape button.
+		</p>
 	</body>
 </html>

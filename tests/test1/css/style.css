@@ -129,3 +129,7 @@ body {
 	opacity: 1;
 	left: 0;
 }
+
+.visually-hidden {
+	opacity: 0;
+}
