@@ -12,7 +12,76 @@
 		<nav class="navbar">
 			<ul class="navbar-menu">
 				<li><a href="/tests/test1">Home</a></li>
-				<li><a href="/tests/test1/wrong.html">About</a></li>
+				<li class="has-children">
+					<a href="#!" aria-haspopup="true">Cases</a>
+					<ul aria-label="submenu">
+						<li class="has-children">
+							<a href="#!" aria-haspopup="true">Vervelend menu item</a>
+							<ul aria-label="submenu">
+								<li class="has-children">
+									<a href="#!" aria-haspopup="true">Countries</a>
+									<ul aria-label="submenu">
+										<li>
+											<a href="/tests/test1/wrong.html">Germany</a>
+										</li>
+										<li>
+											<a href="/tests/test1/wrong.html">the Netherlands</a>
+										</li>
+										<li>
+											<a href="/tests/test1/wrong.html">Poland</a>
+										</li>
+										<li>
+											<a href="/tests/test1/wrong.html">Belgium</a>
+										</li>
+										<li>
+											<a href="/tests/test1/wrong.html">France</a>
+										</li>
+										<li>
+											<a href="/tests/test1/wrong.html">Denmark</a>
+										</li>
+									</ul>
+								</li>
+								<li class="has-children">
+									<a href="#!" aria-haspopup="true">Nog een item</a>
+									<ul aria-label="submenu">
+										<li>
+											<a href="/tests/test1/wrong.html">2019</a>
+										</li>
+										<li>
+											<a href="/tests/test1/wrong.html">2020</a>
+										</li>
+										<li>
+											<a href="/tests/test1/chart.html">2021</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href="/tests/test1/wrong.html">Nonsense item</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="https://hcd-barchart-test.netlify.app/">Chart 1</a>
+						</li>
+						<li>
+							<a
+								href="https://jelmerovereem.github.io/human-centered-design-2021/src/index.html"
+								>Chart 2</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://samslotemaker.github.io/human-centered-design-2021/table-prototype1/"
+								>Table 1</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://human-centered-design.netlify.app/tabletester/index.html"
+								>Table 2</a
+							>
+						</li>
+						<li><a href="/tests/test1/click-menu.html">Other menu</a></li>
+					</ul>
+				</li>
 				<li class="has-children">
 					<a href="#!" aria-haspopup="true">Charts</a>
 					<ul aria-label="submenu">
@@ -112,7 +181,8 @@
 						<li><a href="/tests/test1/wrong.html">Population Charts</a></li>
 					</ul>
 				</li>
-				<li><a href="/tests/test1/wrong.html">Contact</a></li>
+				<li><a href="/tests/test1/wrong.html">Item 4</a></li>
+				<li><a href="/tests/test1/wrong.html">Item 5</a></li>
 			</ul>
 		</nav>
 		<h1>Wrong page</h1>
