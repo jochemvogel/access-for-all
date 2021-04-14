@@ -20,16 +20,15 @@ body {
 	margin: 1em;
 	background-color: var(--black);
 	color: var(--white);
-	font-family: var(--font-sans-serif);
 	font-size: 1.5em;
 	display: grid;
-	grid-template-columns: repeat(7, 1fr);
+	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: auto;
 	grid-template-areas:
-		'top top top top top top top'
-		'nav main main main main main main'
-		'nav main main main main main main'
-		'nav main main main main main main';
+		'top top top top top top'
+		'nav main main main main main'
+		'nav main main main main main'
+		'nav main main main main main';
 }
 
 h1 {
@@ -39,6 +38,7 @@ h1 {
 h1,
 h2 {
 	margin: 0;
+	font-family: var(--font-sans-serif);
 }
 
 a {
@@ -61,6 +61,7 @@ main {
 	grid-area: main;
 	padding: 2em;
 	max-width: 40em;
+	font-family: var(--font-sans-serif);
 }
 
 .top {
