@@ -1,10 +1,10 @@
 # Human Centered Design @cmda-minor-web 2021
 
-Jochem
+Momenteel heb ik nog niet zoveel. Bekijk de [Wiki](https://github.com/jochemvogel/human-centered-design-2021/wiki) voor meer informatie.
 
 //Interactie ontwerpen: Rapid prototypen en testen met echte mensen
 
-Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen. 
+Human Centered Design is een methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen.
 
 > What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
 
@@ -12,20 +12,18 @@ Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwe
 
 In het vak Human Centered Design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En is het leuk?
 
-
 ## Opdracht
 
 ### Ontwerpen met en voor echte mensen
 
 Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. Een echt mens. Je moet je ontwerp 3 keer testen. Door te testen en te itereren ga je je ontwerp verbeteren. Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. Een _exclusive design_ ... Wie is deze persoon dan voor wie je dit gaat maken? Wat vindt deze persoon leuk of juist niet? En hoe bedient deze persoon een computer?
 
-- [Opdracht - Ontwerpen met en voor echte mensen](course/Opdracht1.md)
-
+-   [Opdracht - Ontwerpen met en voor echte mensen](course/Opdracht1.md)
 
 ### Leerdoelen
 
-- _Leren hoe je (design) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
+-   _Leren hoe je (design) principles in een ontwerp kan toepassen._
+-   _User needs begrijpen en gebruiken in je ontwerp._
+-   _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
 
 [Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/)
