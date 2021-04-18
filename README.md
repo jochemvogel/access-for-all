@@ -1,29 +1,95 @@
-# Human Centered Design @cmda-minor-web 2021
+# AccessForAll - Toegankelijkheidsplatform
 
-Momenteel heb ik nog niet zoveel. Bekijk de [Wiki](https://github.com/jochemvogel/human-centered-design-2021/wiki) voor meer informatie.
+**[Live link](#)**
 
-//Interactie ontwerpen: Rapid prototypen en testen met echte mensen
+AccessForAll is een platform omtrent toegankelijkheid. Er zijn (toegankelijke) artikelen & tools te vinden. Daarnaast kunnen mensen met elkaar in gesprek gaan. Er kunnen onder andere meetups georganiseerd worden.
 
-Human Centered Design is een methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen.
+Deze README fungeert als een samenvatting van alle documentatie. Meer informatie over het concept, de testen en andere onderdelen is te vinden in de [Wiki](https://github.com/jochemvogel/human-centered-design-2021/wiki/Final-Concept).
 
-> What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
+## Table of Contents
 
-Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwerp. Een Frontend Designer en Developer heeft verstand van techniek, UX en design. Als je web technieken beheerst kun je je ideeën snel prototypen en testen in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
+<table>
+<tr>
+	<td align="center"><a href="#nerd_face-usage">🤓 Course <a></td>
+	<td align="center"><a href="#gear-installation">⚙️ Installation<a></td>
+	<td align="center"><a href="#dizzy-concept">💫 Concept <a></td>
+	<td align="center"><a href="#see_no_evil-exclusive-design-principles">🙈 Exclusive Design Principles<a></td>
+	<td align="center"><a href="#mag-tests">🔍 Tests<a></td>
+	<td align="center"><a href="#link-sources">🔗 Sources<a></td>
+</tr>
 
-In het vak Human Centered Design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En is het leuk?
+</table>
 
-## Opdracht
+## :nerd_face: Course
 
-### Ontwerpen met en voor echte mensen
+_The course Human Centred Design is about learning to design and build websites for real humans, using user testing and iterative design proces. Human Centred Design is part of the half year minor programme about Web Design and Development in Amsterdam. Bachelor Communication and Multimedia Design, Amsterdam University of Applied Science._
 
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. Een echt mens. Je moet je ontwerp 3 keer testen. Door te testen en te itereren ga je je ontwerp verbeteren. Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. Een _exclusive design_ ... Wie is deze persoon dan voor wie je dit gaat maken? Wat vindt deze persoon leuk of juist niet? En hoe bedient deze persoon een computer?
+## :gear: Installation
 
--   [Opdracht - Ontwerpen met en voor echte mensen](course/Opdracht1.md)
+### Get it local
 
-### Leerdoelen
+This app is made with vanilla JS
 
--   _Leren hoe je (design) principles in een ontwerp kan toepassen._
--   _User needs begrijpen en gebruiken in je ontwerp._
--   _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
+#### 1). Clone the repository
 
-[Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/)
+`git clone https://github.com/jochemvogel/access-for-all.git`
+
+## :dizzy: Concept
+
+AccessForAll is een platform omtrent toegankelijkheid. Er zijn (toegankelijke) artikelen te vinden. Daarnaast zijn er tools te vinden voor mensen met een beperking. Denk aan screenreaders, transcriptie tools etc. Niet enkel een lijst, maar ook de ervaringen van gebruikers. Daarnaast is het mogelijk om meetups te organiseren om te discussiëren over toegankelijkheid. Ten slotte is het mogelijk om te zoeken naar mensen met een specifieke beperking. Stel dat jij jouw website meer toegankelijk wilt maken voor slechthorende, dan kun je contact op nemen met iemand die slecht kan horen. Met deze persoon kun je dan gaan testen of je kunt wat vragen stellen. Hier zou bijvoorbeeld in een lijst met filters kunnen.
+
+### Screenshot
+
+<details>
+
+<summary>Screenshot app</summary>
+
+_Screenshot App_
+
+</details>
+
+### Design
+
+<details>
+
+<summary>First sketch design</summary>
+
+_Screenshot Design_
+
+</details>
+
+### User Scenario
+
+Een meer uitgebreide versie van het concept is te vinden in de [Wiki](https://github.com/jochemvogel/access-for-all/wiki/Final-concept).
+
+## :see_no_evil: Exclusive Design Principles
+
+### Overview
+
+### 1). Study Situation
+
+### 2). Ignoring Conventions
+
+### 3). Prioritise Identity
+
+### 4). Add Nonsense
+
+In de [Wiki](https://github.com/jochemvogel/access-for-all/wiki/Exclusive-Design) kun je lezen hoe ik deze principes heb toegepast binnen dit project.
+
+## :mag: Tests
+
+### Week 1
+
+Het volledige testverslag van week 1 is in de [Wiki](https://github.com/jochemvogel/access-for-all/wiki/Testverslag-week-1) te lezen.
+
+### Week 2
+
+Het volledige testverslag van week 2 is in de [Wiki](https://github.com/jochemvogel/access-for-all/wiki/Testverslag-week-2) te lezen.
+
+### Week 3
+
+Het volledige testverslag van week 3 is in de [Wiki](https://github.com/jochemvogel/access-for-all/wiki/Testverslag-week-3) te lezen.
+
+## :link: Sources
+
+Alle bronnen zijn te vinden in de [Wiki](https://github.com/jochemvogel/access-for-all/wiki/Sources).
