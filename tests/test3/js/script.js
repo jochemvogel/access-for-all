@@ -5,26 +5,26 @@ const voorleesBtn = document.querySelector(".voorlees-btn");
 const welcomeMsg =
     "Hallo Roger! Welkom op deze website. Hier een korte toelichting. Maak gebruik van de TAB toets om door de website heen te navigeren. Mocht er uitleg nodig zijn, dan wordt deze gegeven bij de desbetreffende elementen. Met behulp van de ESCAPE toets, kun je lange stukken tekst, zoals dit, overslaan. Met SPATIE kun je meer uitleg krijgen, zodat je precies weet wat je kunt doen. Veel plezier met het gebruik van deze website. Gebruik de TAB toets om verder te gaan.";
 
-// links.forEach((item) => {
-//     item.addEventListener("focus", () => {
-//         enableSpeech(item.innerText);
-//     });
+links.forEach((item) => {
+    // item.addEventListener("focus", () => {
+    //     enableSpeech(item.innerText);
+    // });
 
-//     item.addEventListener("keydown", (e) => {
-//         if (e.code === "Space" && e.target.ariaDescribedByElements) {
-//             const ariaLabel = e.target.ariaDescribedByElements[0].innerText;
-//             enableSpeech(ariaLabel);
+    item.addEventListener("keydown", (e) => {
+        // if (e.code === "Space" && e.target.ariaDescribedByElements) {
+        //     const ariaLabel = e.target.ariaDescribedByElements[0].innerText;
+        //     enableSpeech(ariaLabel);
 
-//             return;
-//         }
+        //     return;
+        // }
 
-//         if ((e.code = "Escape")) {
-//             window.speechSynthesis.cancel();
+        if ((e.code = "Escape")) {
+            window.speechSynthesis.cancel();
 
-//             return;
-//         }
-//     });
-// });
+            return;
+        }
+    });
+});
 
 manual.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
