@@ -157,6 +157,12 @@ main {
     margin-bottom: 0.5em;
 }
 
+.quick-article-summary > span {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 .article-details > p {
     margin: 0;
 }

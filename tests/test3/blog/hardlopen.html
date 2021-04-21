@@ -52,7 +52,7 @@
                     >Handleiding</a
                 >
                 <li>
-                    <a class="sans-serif active" href="/tests/test3">Home</a>
+                    <a class="sans-serif" href="/tests/test3">Home</a>
                 </li>
                 <li>
                     <a class="sans-serif" href="/tests/test3/blog.html">Blog</a>
@@ -61,7 +61,7 @@
         </nav>
 
         <div class="aria-labels visually-hidden" hidden>
-            <p id="handleiding-label">Klik op enter om het af te spelen</p>
+            <p id="handleiding-label">Klik op enter om het af te spelen.</p>
             <p id="skip-menu-label">
                 Klik op enter om direct door te gaan naar het belangrijkste
                 gedeelte van de pagina
@@ -72,6 +72,25 @@
             <p id="voorlees-btn">
                 Klik op enter om het artikel te laten voorlezen
             </p>
+            <p id="eerste-kop">
+                Dit is de eerste kop. Eigenlijk heb ik hier niets over te
+                zeggen.
+            </p>
+            <p id="extra-tussenkopje">
+                In dit extra tussenkopje krijg je meer informatie over de
+                hoeveelheid onnutige informatie die hier staat.
+            </p>
+            <p id="renjacht">
+                Dit gedeelte gaat over hoe belangrijk rennen was bij de
+                ontwikkeling van de mens.
+            </p>
+            <p id="tussenkopje">
+                Hier is eigenlijk niet zo heel veel te vinden
+            </p>
+            <p id="afsluiting">
+                Hier kun je de conclusie lezen. Deze is er niet, maar stel je
+                eens voor.
+            </p>
         </div>
 
         <main id="main">
@@ -79,29 +98,77 @@
                 Lees het artikel voor
             </button>
             <article>
-                <h2>Hardloop artikel</h2>
-                <h3>Dit is een artikel van Mariska van Sprundel.</h3>
+                <a href="/tests/test3/blog.html">Terug naar alle artikelen</a>
+                <h2>De geboorte van de langeafstandsloper</h2>
                 <small>
                     Gepubliceerd op 4 juni 2018 (bron: Nemo Kennislink)</small
                 >
+                <hr />
                 <section class="quick-article-summary">
-                    Dit is de samenvatting van het artikel. Op dit moment zegt
-                    de samenvatting eigenlijks niets, maar je kan je voorstellen
-                    dat dit een samenvatting is van het artikel. Niet te lang,
-                    maar lang genoeg dat jij een beeld krijgt waar het artikel
-                    over gaat.
+                    <span>Samenvatting: </span>Dit is de samenvatting van het
+                    artikel. Op dit moment zegt de samenvatting eigenlijks
+                    niets, maar je kan je voorstellen dat dit een samenvatting
+                    is van het artikel. Niet te lang, maar lang genoeg dat jij
+                    een beeld krijgt waar het artikel over gaat.
                 </section>
+
+                <div class="article-details">
+                    <p><strong>Auteur</strong>: Mariska van Sprundel</p>
+                    <p>
+                        <strong>Lengte</strong>: ongeveer 7 minuten (495
+                        woorden)
+                    </p>
+                </div>
 
                 <hr />
 
-                <h3 tabindex="0">Eerste kop</h3>
-                <p>
-                    Nederland telt maar liefst 1,5 miljoen recreatieve
-                    hardlopers, meer dan het er ooit geweest zijn. Waarom lopen
-                    we zo graag? Om inzicht te krijgen in de oorsprong van
-                    hardlopen moet je diep graven in de geschiedenis. Niet een
-                    paar duizend, maar miljoenen jaren terug.
-                </p>
+                <div class="article-table-of-content">
+                    <h3>Inhoudsopgave</h3>
+                    <ol>
+                        <li>
+                            <a href="#eerste-kop" aria-describedby="eerste-kop"
+                                >Eerste kop</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#extra-tussenkopje"
+                                aria-describedby="extra-tussenkopje"
+                                >Extra tussenkopje</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#renjacht" aria-describedby="renjacht"
+                                >Renjacht</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#tussenkopje"
+                                aria-describedby="tussenkopje"
+                                >Tussenkopje</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#afsluiting" aria-describedby="afsluiting"
+                                >Afsluiting</a
+                            >
+                        </li>
+                    </ol>
+                    <p>
+                        <strong
+                            >Nederland telt maar liefst 1,5 miljoen recreatieve
+                            hardlopers, meer dan het er ooit geweest zijn.
+                            Waarom lopen we zo graag? Om inzicht te krijgen in
+                            de oorsprong van hardlopen moet je diep graven in de
+                            geschiedenis. Niet een paar duizend, maar miljoenen
+                            jaren terug.</strong
+                        >
+                    </p>
+                </div>
+
+                <hr />
+                <h3 tabindex="0" id="eerste-kop">Eerste kop</h3>
                 <p>
                     Daniel Lieberman probeert aan de hand van fossielen, botten
                     en experimenten te begrijpen waarom ons lichaam eruit ziet
@@ -118,7 +185,7 @@
                     langeafstandslopers. Wie een boek wil schrijven over de
                     wetenschap achter hardlopen, kan niet om deze man heen.
                 </p>
-                <h3 tabindex="0">Extra tussenkopje</h3>
+                <h3 tabindex="0" id="extra-tussenkopje">Extra tussenkopje</h3>
                 <p>
                     In het veel geciteerde artikel nemen Lieberman en Bramble
                     het skelet van Homo erectus onder de loep, een mensensoort
@@ -146,7 +213,7 @@
                     hollen, en grote gewrichten om de klappen van de ondergrond
                     mee op te vangen.
                 </p>
-                <h3 tabindex="0">Renjacht</h3>
+                <h3 tabindex="0" id="renjacht">Renjacht</h3>
                 <p>
                     Oké, dus Homo erectus kon waarschijnlijk lange stukken
                     hollen. Zijn skelet laat echter ook aanpassingen zien voor
@@ -168,7 +235,7 @@
                     zijn plek te houden bij hardlopen, maar is niet erg actief
                     bij wandelen.
                 </p>
-                <h3 tabindex="0">Tussenkopje</h3>
+                <h3 tabindex="0" id="tussenkopje">Tussenkopje</h3>
                 <p>
                     Oké, dus Homo erectus kon waarschijnlijk lange stukken
                     hollen. Zijn skelet laat echter ook aanpassingen zien voor
@@ -190,7 +257,7 @@
                     zijn plek te houden bij hardlopen, maar is niet erg actief
                     bij wandelen.
                 </p>
-                <h3 tabindex="0">Afsluiting</h3>
+                <h3 tabindex="0" id="afsluiting">Afsluiting</h3>
                 <p>
                     Oké, dus Homo erectus kon waarschijnlijk lange stukken
                     hollen. Zijn skelet laat echter ook aanpassingen zien voor
@@ -212,7 +279,9 @@
                     zijn plek te houden bij hardlopen, maar is niet erg actief
                     bij wandelen.
                 </p>
-                <a href="/tests/test3/blog.html">Ga terug naar overzicht</a>
+                <a href="/tests/test3/blog.html"
+                    >Ga terug naar overzicht met alle artikelen</a
+                >
             </article>
         </main>
 
