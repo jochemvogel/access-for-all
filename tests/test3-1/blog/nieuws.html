@@ -55,11 +55,16 @@
                     >Handleiding</a
                 >
                 <li>
-                    <a class="sans-serif" href="/tests/test3/blog.html">Blog</a>
+                    <a
+                        class="sans-serif"
+                        href="/tests/test3/blog.html"
+                        aria-describedby="blog-label"
+                        >Blog</a
+                    >
                 </li>
                 <li>
-                    <a class="sans-serif" href="/tests/test3-1/index.html"
-                        >Met geluid</a
+                    <a class="sans-serif" href="/tests/test3/index.html"
+                        >Zonder</a
                     >
                 </li>
             </ul>
@@ -76,6 +81,9 @@
             </p>
             <p id="voorlees-btn">
                 Klik op enter om het artikel te laten voorlezen
+            </p>
+            <p id="blog-label">
+                Klik op enter om naar het overzicht met alle blogs te gaan.
             </p>
             <p id="eerste-kop">
                 Dit is de eerste kop. Eigenlijk heb ik hier niets over te
@@ -99,6 +107,9 @@
         </div>
 
         <main id="main">
+            <button class="voorlees-btn" aria-describedby="voorlees-btn">
+                Lees het artikel voor
+            </button>
             <article>
                 <a href="/tests/test3/blog.html">Terug naar alle artikelen</a>
                 <h2>
