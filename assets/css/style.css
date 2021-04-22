@@ -1,0 +1,199 @@
+:root {
+    --white: #fafafa;
+    --black: #2d2d2d;
+    --dark-grey: #3d3d3d;
+    --red-brown: #790b0b;
+
+    --font-sans-serif: "Noto Sans JP", sans-serif;
+}
+
+*:focus,
+.active:focus,
+.recent-articles > article > a:focus h2 {
+    padding: 0.2em 0.5em;
+    background-color: black;
+}
+
+.active {
+    border: 5px dashed var(--white);
+    background-color: var(--red-brown);
+    padding: 0.2em;
+}
+
+* {
+    color: var(--white);
+}
+
+body {
+    box-sizing: border-box;
+    margin: 1em;
+    background-color: var(--black);
+    color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "top top top top top"
+        "nav main main main main"
+        "nav main main main main"
+        "nav main main main main";
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-family: var(--font-sans-serif);
+}
+
+a {
+    color: var(--white);
+}
+
+nav {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 2em;
+    border-right: 5px solid var(--white);
+    grid-area: nav;
+    position: fixed;
+    top: 15%;
+    width: 20%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul li a {
+    width: 100%;
+}
+
+main {
+    grid-area: main;
+    padding: 0 2em;
+    max-width: 40em;
+    font-family: var(--font-sans-serif);
+}
+
+main section {
+    margin-top: 2em;
+}
+
+.top {
+    grid-area: top;
+    display: flex;
+    flex-direction: column;
+}
+
+.top a {
+    margin: 0.25em 0;
+    font-size: 1.2em;
+    max-width: 300px;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+}
+
+.sans {
+    font-family: var(--font-sans);
+}
+
+.sans-serif {
+    font-family: var(--font-sans-serif);
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.extrabold {
+    font-weight: 900;
+}
+
+.visually-hidden {
+    opacity: 0;
+    height: 0;
+}
+
+.visually-hidden:focus {
+    padding: 0;
+    opacity: 1;
+}
+
+.no-script {
+    font-size: 2em;
+    text-align: center;
+}
+
+.voorlees-btn {
+    background-color: black;
+    padding: 1em;
+    font-size: 1em;
+    border: none;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+#handleiding {
+    font-size: 0.75em;
+}
+
+.recent-articles > article {
+    padding: 2em;
+    margin: 2em 0;
+    background-color: var(--dark-grey);
+}
+
+.recent-articles > article > a:last-child {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.quick-article-summary {
+    margin-bottom: 0.5em;
+}
+
+.quick-article-summary > span {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.article-details > p {
+    margin: 0;
+}
+
+/* Sections */
+#kennisbank ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#kennisbank ul li {
+    font-size: 1.25em;
+    margin: 0.5em 0;
+}
+
+#kennisbank h3 {
+    font-size: 1.5em;
+}
+
+.not-clickable a {
+    cursor: not-allowed;
+}

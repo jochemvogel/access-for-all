@@ -4,15 +4,16 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="../assets/css/style.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
             href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap"
             rel="stylesheet"
         />
-        <title>Test week 3</title>
+        <title>AccessForAll | Kennisbank</title>
     </head>
     <body>
+        <!-- Top -->
         <div class="top">
             <h1>AccessForAll</h1>
 
@@ -34,6 +35,7 @@
             >
         </div>
 
+        <!-- Navigation -->
         <nav>
             <ul>
                 <li>
@@ -46,13 +48,15 @@
                     >
                 </li>
                 <li>
-                    <a class="sans-serif active" href="/">Home</a>
+                    <a class="sans-serif" href="/">Home</a>
                 </li>
                 <li>
                     <a class="sans-serif" href="/blog">Blog</a>
                 </li>
                 <li>
-                    <a class="sans-serif" href="/kennisbank">Kennisbank</a>
+                    <a class="sans-serif active" href="/kennisbank"
+                        >Kennisbank</a
+                    >
                 </li>
                 <li>
                     <a class="sans-serif" href="/events">Events</a>
@@ -62,6 +66,8 @@
                 </li>
             </ul>
         </nav>
+
+        <!-- Aria labels -->
 
         <div class="aria-labels visually-hidden" hidden>
             <p id="handleiding-label">Klik op enter om het af te spelen</p>
@@ -74,20 +80,42 @@
             </p>
         </div>
 
+        <!-- Main content -->
+
         <main id="main">
-            <section>
-                <h2>Homepagina</h2>
+            <section id="kennisbank">
+                <h2>Kennisbank</h2>
                 <p>
-                    AccessForAll is een platform omtrent toegankelijkheid. Er
-                    zijn (toegankelijke) artikelen & tools te vinden. Daarnaast
-                    kunnen mensen met elkaar in gesprek gaan. Er kunnen
-                    daarnaast onder andere evenementen georganiseerd worden.
-                    Tijdens deze evenementen kunnen mensen met elkaar in gesprek
-                    over toegankelijkheid
+                    De kennisbank is een plek waar jij informatie over
+                    toegankelijkheid kunt vinden. Daarnaast zijn hier tools (en
+                    ervaringen) van anderen te vinden om het leven van jou een
+                    stuk makkelijker te maken.
                 </p>
+
+                <h3>Informatie</h3>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Toegankelijkheid</a></li>
+                </ul>
+
+                <h3>Hulpmiddelen</h3>
+
+                <ul>
+                    <li>
+                        <a href="/kennisbank/hulpmiddelen/visueel"
+                            >Visuele beperking</a
+                        >
+                    </li>
+                    <li><a href="#">Auditieve beperking</a></li>
+                    <li>
+                        <a href="#">Motorische beperking</a>
+                    </li>
+                </ul>
             </section>
         </main>
 
-        <script src="assets/js/script.js"></script>
+        <script src="../assets/js/script.js"></script>
     </body>
 </html>
