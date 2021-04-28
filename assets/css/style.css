@@ -2,7 +2,9 @@
     --white: #fafafa;
     --black: #2d2d2d;
     --dark-grey: #3d3d3d;
+    --grey: #6d6b6b;
     --red-brown: #790b0b;
+    --green-brown: #2a5502;
 
     --font-sans-serif: "Noto Sans JP", sans-serif;
 }
@@ -196,4 +198,84 @@ main section {
 
 .not-clickable a {
     cursor: not-allowed;
+}
+
+.events-overview ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.events-overview ul > li {
+    margin: 0.5em 0;
+}
+
+.events-overview ul > li > a {
+    font-size: 1.5em;
+}
+
+#search-input {
+    border-radius: 5px;
+    border: none;
+    font-size: 2em;
+}
+
+#search-form {
+    width: 95%;
+}
+
+#search-form input {
+    width: 100%;
+    border: none;
+    margin: 2px 0;
+    text-align: center;
+}
+
+#search-form input[type="text"]:not(:focus) {
+    color: black;
+    background-color: var(--grey);
+}
+
+#search-form input[type="submit"] {
+    color: var(--white);
+    font-size: 1em;
+    font-weight: bold;
+    background-color: var(--green-brown);
+    height: 2em;
+    cursor: pointer;
+}
+
+#search-form input[type="submit"]:active {
+    transform: scale(0.98);
+    transition: transform 0.2s;
+}
+
+.connect-filters {
+    text-align: center;
+}
+
+.connect-filters ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.non-list-style-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.non-list-style-ul li {
+    margin: 0.5em 0;
+}
+
+.non-list-style-ul li > a {
+    font-size: 1.5em;
+}
+
+.article-list article {
+    background-color: var(--dark-grey);
+    padding: 2em;
+    margin: 2em 0;
 }
