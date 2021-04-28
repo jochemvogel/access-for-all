@@ -6,8 +6,6 @@ const articleHeadings = document.querySelectorAll(
 );
 const articleSubHeadings = document.querySelectorAll(".subheading-article");
 
-const handleidingMsg = "../assets/mp3/handleiding.mp3";
-
 const navItems = document.querySelectorAll("nav ul li a");
 navItems.forEach((navItem) => {
     if (navItem.href === window.location.href) {
@@ -40,14 +38,12 @@ tabbableItems.forEach((item) => {
 
 manual.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
-        const audio = new Audio(handleidingMsg);
-        audio.play();
+        playHandleiding();
     }
 });
 
 manual.addEventListener("click", () => {
-    const audio = new Audio(handleidingMsg);
-    audio.play();
+    playHandleiding();
 });
 
 localStorage.setItem("isPlaying", false);
@@ -184,3 +180,22 @@ articleSubHeadings.forEach((header) => {
         }
     });
 });
+
+function playHandleiding() {
+    const handleidingMsg = "../assets/mp3/handleiding.mp3";
+    const handleidingDuration = 60_000;
+
+    const isPlaying = localStorage.getItem("isPlaying") === "true";
+
+    if (isPlaying) {
+        return;
+    }
+
+    localStorage.setItem("isPlaying", true);
+    const audio = new Audio(handleidingMsg);
+    audio.play();
+
+    setTimeout(() => {
+        localStorage.setItem("isPlaying", false);
+    }, handleidingDuration);
+}
