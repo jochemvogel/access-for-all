@@ -1,6 +1,6 @@
 # AccessForAll - Toegankelijkheidsplatform
 
-**[Live link](#)**
+**[Live link](hcd.jchm.dev/)**
 
 AccessForAll is een platform omtrent toegankelijkheid. Er zijn (toegankelijke) artikelen & tools te vinden. Daarnaast kunnen mensen met elkaar in gesprek gaan. Er kunnen onder andere meetups georganiseerd worden.
 
