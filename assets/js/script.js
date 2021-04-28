@@ -4,6 +4,8 @@ const voorleesBtn = document.querySelector(".voorlees-btn");
 const articleHeadings = document.querySelectorAll(".article-list article h2");
 const articleSubHeadings = document.querySelectorAll(".subheading-article");
 
+const handleidingMsg = "../assets/mp3/handleiding.mp3";
+
 const navItems = document.querySelectorAll("nav ul li a");
 navItems.forEach((navItem) => {
     if (navItem.href === window.location.href) {
@@ -12,9 +14,6 @@ navItems.forEach((navItem) => {
         }
     }
 });
-
-const welcomeMsg =
-    "Hallo Rosjee! Welkom op deze website. Hier een korte toelichting. Maak gebruik van de TAB toets om door de website heen te navigeren. Mocht er uitleg nodig zijn, dan wordt deze gegeven bij de desbetreffende elementen. Met behulp van de ESCAPE toets, kun je lange stukken tekst, zoals dit, overslaan. Met de I-toets kun je meer uitleg krijgen, zodat je precies weet wat je moet doen en welke informatie erbij hoort. Klik op de L-toets om iets voor te lezen. Veel plezier met het gebruik van deze website. Gebruik de TAB toets om verder te gaan. Ohja, klik op M om mij een mop te laten voorlezen. Dit kun je op de hele website gebruiken";
 
 tabbableItems.forEach((item) => {
     item.addEventListener("focus", () => {
@@ -39,12 +38,14 @@ tabbableItems.forEach((item) => {
 
 manual.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
-        enableSpeech(welcomeMsg, true);
+        const audio = new Audio(handleidingMsg);
+        audio.play();
     }
 });
 
 manual.addEventListener("click", () => {
-    enableSpeech(welcomeMsg, true);
+    const audio = new Audio(handleidingMsg);
+    audio.play();
 });
 
 localStorage.setItem("isPlaying", false);
