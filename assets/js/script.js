@@ -1,7 +1,9 @@
 const tabbableItems = document.querySelectorAll("a, button, .tabbable");
 const manual = document.getElementById("handleiding");
 const voorleesBtn = document.querySelector(".voorlees-btn");
-const articleHeadings = document.querySelectorAll(".article-list article h2");
+const articleHeadings = document.querySelectorAll(
+    ".article-list article h2, .article-list article h3"
+);
 const articleSubHeadings = document.querySelectorAll(".subheading-article");
 
 const handleidingMsg = "../assets/mp3/handleiding.mp3";
