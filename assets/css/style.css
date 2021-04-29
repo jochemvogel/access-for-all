@@ -257,7 +257,6 @@ main section {
 .connect-filters ul {
     display: flex;
     justify-content: space-around;
-
 }
 
 .non-list-style-ul {
@@ -278,4 +277,14 @@ main section {
     background-color: var(--dark-grey);
     padding: 2em;
     margin: 2em 0;
+}
+
+.btn {
+    margin-top: 1em;
+    padding: 1em;
+    font-size: 1.2em;
+    text-align: center;
+    width: 95%;
+    background-color: var(--red-brown);
+    border: none;
 }
